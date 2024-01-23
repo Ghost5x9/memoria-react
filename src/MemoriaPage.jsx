@@ -17,7 +17,7 @@ const MemoriaPage = () => {
             setCasillaAnterior(nuevaListaClon[row][col])
             setTurno(2)
         }else{
-            nuevaListaClon[row][col].mostrandoSimbolo = true
+            
 
             if (casillaAnterior.simbolo == nuevaListaClon[row][col].simbolo){
                 casillaAnterior.mostrandoSimbolo = false
